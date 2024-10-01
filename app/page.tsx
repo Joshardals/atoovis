@@ -238,7 +238,7 @@ export default function Home() {
               <span>Sign In With Google</span>
             </button>
 
-            <span>Don't have an account? Sign Up</span>
+            <span>Don&apos;t have an account? Sign Up</span>
           </div>
         </div>
       </div>
