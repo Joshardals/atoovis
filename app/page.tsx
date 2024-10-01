@@ -190,7 +190,11 @@ export default function Home() {
       </footer>
 
       {/* Login Container */}
-      <div className={`bg-black/50 fixed h-screen w-full flex items-center justify-center ${modal === true ? "block" : "hidden"} `}>
+      <div
+        className={`bg-black/50 fixed h-screen w-full flex items-center justify-center ${
+          modal === true ? "block" : "hidden"
+        } `}
+      >
         <div className="bg-white w-[350px] rounded-2xl p-4">
           <div className="flex justify-end">
             <div className="bg-yellow-500" onClick={() => setModal(false)}>
@@ -213,7 +217,12 @@ export default function Home() {
 
             <div className="flex items-center justify-between">
               <div className="space-x-1">
-                <input type="checkbox" name="checkbox" id="checkbox" />
+                <input
+                  title="checkbox"
+                  type="checkbox"
+                  name="checkbox"
+                  id="checkbox"
+                />
                 <span>Remember me</span>
               </div>
 
