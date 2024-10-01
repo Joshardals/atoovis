@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  body  {
+    @apply text-black; 
+  }
+
+  .max-content {
+   @apply max-w-[1200px] mx-auto
+  }
+}
