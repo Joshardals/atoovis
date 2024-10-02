@@ -330,7 +330,7 @@ export default function Home() {
       </footer>
       {/* Login Container */}
       <div
-        className={`bg-black/50 fixed h-screen w-full flex items-center justify-center z-10 ${
+        className={`bg-black/50 fixed h-screen w-full flex items-center justify-center ${
           modal === true ? "block" : "hidden"
         } `}
       >
@@ -356,7 +356,12 @@ export default function Home() {
 
             <div className="flex items-center justify-between">
               <div className="space-x-1">
-                <input type="checkbox" name="checkbox" id="checkbox" />
+                <input
+                  title="checkbox"
+                  type="checkbox"
+                  name="checkbox"
+                  id="checkbox"
+                />
                 <span>Remember me</span>
               </div>
 
@@ -372,7 +377,7 @@ export default function Home() {
               <span>Sign In With Google</span>
             </button>
 
-            <span>Don't have an account? Sign Up</span>
+            <span>Don&apos;t have an account? Sign Up</span>
           </div>
         </div>
       </div>
