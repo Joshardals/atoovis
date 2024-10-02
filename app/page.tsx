@@ -292,7 +292,7 @@ export default function Home() {
       </footer>
 
       {/* Mobile Screen */}
-      <footer className="bg-forestTeal p-4 text-white lg:hidden">
+      <footer className="bg-forestTeal p-4 mb-[5rem] text-white lg:hidden">
         <div className="space-y-4 mb-4">
           <Image alt="logo" src="/logo.png" width={100} height={100} />
           <div className="col-span-2 spac space-y-2">
